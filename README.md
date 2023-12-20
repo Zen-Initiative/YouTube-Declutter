@@ -1,5 +1,5 @@
 # 📽️ YouTube Declutter
-- A simple filter list (<10 filters) to declutter YouTube
+- A simple list (<10 filters) to declutter YouTube
 - Aggressive: hides/blocks almost everything other than the video
 - **Warning: only use if you don't need the functions below!**
 
