@@ -7,6 +7,9 @@
 
 Purpose: remove all clutter & distractions
 
+Direct Link:  
+https://raw.githubusercontent.com/Zen-Initiative/YouTube-Declutter/main/YouTube_declutter_uBO.txt
+
 ---
 
 Hides/blocks:
