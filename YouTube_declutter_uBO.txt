@@ -1,0 +1,29 @@
+! Title: 📽️ YouTube Declutter
+! Description: Simple (<10 filters) yet aggressive (hides/blocks almost everything other than the video) 
+! Warning: only use if you don't need the functions below
+! Homepage: https://github.com/Zen-Initiative/YouTube-Declutter
+! License: https://github.com/Zen-Initiative/YouTube-Declutter/blob/main/LICENSE
+! Last update: 21 December 2023
+! Syntax: uBO/ABP/AdGuard
+
+
+! Hide all comments 
+www.youtube.com###comments
+
+! Hide all recommendations
+www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope
+
+! Hide chat window in live streaming
+www.youtube.com###chat:remove()
+
+! Block end-screen recommendations & annotations (the second line may block in-video annotations, too)
+/endscreen.js$script,important,domain=youtube.com|youtu.be|youtube-nocookie.com
+/annotations_module.js$script,important,domain=youtube.com|youtu.be|youtube-nocookie.com
+
+! Hide the miniplayer (shows up when you go back to a search page/playlist while playing a video)
+youtube.com##ytd-miniplayer[has-playlist-data] #movie_player video:remove()
+youtube.com##ytd-miniplayer[has-playlist-data][active]
+youtube.com##ytd-miniplayer[has-playlist-data][closed] ~ * .ytp-miniplayer-button
+
+! temporary fix for slow loading
+www.youtube.com##+js(nano-stb, resolve(1), 5000, 0.001)
