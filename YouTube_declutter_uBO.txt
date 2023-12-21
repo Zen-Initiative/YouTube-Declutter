@@ -1,5 +1,5 @@
 ! Title: 📽️ YouTube Declutter
-! Description: Simple (<10 filters) yet aggressive (hides/blocks almost everything other than the video) 
+! Description: Simple (<10 filters) yet aggressive (hides/blocks almost everything other than the video, although it doesn't block YouTube ads) 
 ! Warning: only use if you don't need the functions below
 ! Homepage: https://github.com/Zen-Initiative/YouTube-Declutter
 ! License: https://github.com/Zen-Initiative/YouTube-Declutter/blob/main/LICENSE
