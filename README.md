@@ -24,6 +24,6 @@ Hides/blocks:
 Also:
 - Temporary fix for slow loading
 
-### _Warning again: only use if you don't need these functions! This list does NOT block YouTube ads._
+### _Warning: only use if you don't need these functions! This list does NOT block YouTube ads._
 
 ---
