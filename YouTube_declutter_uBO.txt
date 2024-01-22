@@ -1,9 +1,9 @@
 ! Title: 📽️ YouTube Declutter
-! Description: Simple (<10 filters) yet aggressive (hides/blocks almost everything other than the video, although it doesn't block YouTube ads) 
+! Description: Simple (<=10 filters) yet aggressive (hides/blocks almost everything other than the video, although it doesn't block YouTube ads) 
 ! Warning: only use if you don't need the functions below
 ! Homepage: https://github.com/Zen-Initiative/YouTube-Declutter
 ! License: https://github.com/Zen-Initiative/YouTube-Declutter/blob/main/LICENSE
-! Last update: 21 December 2023
+! Last update: 22 January 2024
 ! Syntax: uBO/ABP/AdGuard
 
 
@@ -24,6 +24,9 @@ www.youtube.com###chat:remove()
 youtube.com##ytd-miniplayer[has-playlist-data] #movie_player video:remove()
 youtube.com##ytd-miniplayer[has-playlist-data][active]
 youtube.com##ytd-miniplayer[has-playlist-data][closed] ~ * .ytp-miniplayer-button
+
+! Hide the toast notification (shows up for e.g. slow/interrupted network connections and won't go away until you click on "X")
+www.youtube.com##.paper-toast-open.yt-notification-action-renderer.style-scope.toast-button
 
 ! temporary fix for slow loading
 www.youtube.com##+js(nano-stb, resolve(1), 5000, 0.001)
