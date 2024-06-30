@@ -1,5 +1,5 @@
 ! Title: 📽️ YouTube Declutter
-! Description: Simple (<=10 filters) yet aggressive (hides/blocks almost everything other than the video, although it doesn't block YouTube ads) 
+! Description: Simple (around 10 filters) yet aggressive (hides/blocks almost everything other than the video, although it doesn't block YouTube ads) 
 ! Warning: only use this filter list if you don't need the functions below
 ! Homepage: https://github.com/Zen-Initiative/YouTube-Declutter
 ! License: https://github.com/Zen-Initiative/YouTube-Declutter/blob/main/LICENSE
@@ -30,3 +30,6 @@ www.youtube.com##.paper-toast-open.yt-notification-action-renderer.style-scope.t
 
 ! Hide popup container
 www.youtube.com##tp-yt-paper-dialog.ytd-popup-container.style-scope > .ytd-popup-container.style-scope
+
+! Hide 'rich grid' 
+www.youtube.com##ytd-rich-grid-renderer.ytd-watch-grid.style-scope > .ytd-rich-grid-renderer.style-scope
