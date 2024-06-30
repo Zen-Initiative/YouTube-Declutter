@@ -21,9 +21,7 @@ Hides/blocks:
 - End-screen recommendations & annotations (may block in-video annotations, too)
 - Miniplayer (shows up when you go back to a search page/playlist while playing a video)
 - Toast notification (shows up for e.g. slow/interrupted connections and won't go away until you click on "X")
-
-Also:
-- Temporary fix for slow loading
+- Other annoyances
 
 ### _Warning: only use if you don't need these functions! This list does NOT block YouTube ads._
 
