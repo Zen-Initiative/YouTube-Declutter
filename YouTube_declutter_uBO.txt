@@ -3,7 +3,7 @@
 ! Warning: only use this filter list if you don't need the functions below
 ! Homepage: https://github.com/Zen-Initiative/YouTube-Declutter
 ! License: https://github.com/Zen-Initiative/YouTube-Declutter/blob/main/LICENSE
-! Last update: 15 May 2024
+! Last update: 30 June 2024
 ! Syntax: uBO/ABP/AdGuard
 
 
